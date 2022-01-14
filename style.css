@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(43, 149, 156);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image: url(https://static7.depositphotos.com/1278966/761/i/950/depositphotos_7616729-stock-photo-numbers-background-light.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background: black;
+    padding: 10px;
+    color: rgb(179, 176, 176);
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px;
+}
+
+input {
+    border: 2px solid black;
+    font-size: 25px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+section button {
+    padding: 5px 7px;
+    margin: 15px;
+    border: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    background: rgb(179, 176, 176);
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+section button :hover {
+    background-color: rgb(179, 176, 176);
+}
+
+.randomNum {
+    width: 90%;
+    margin: 20px auto;
+}
